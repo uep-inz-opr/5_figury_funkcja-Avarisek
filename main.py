@@ -13,6 +13,6 @@ for i in range(0, liczba_figur):
     elif len(dane_figury)==1:
         pole_kola=math.pi*float(dane_figury[0])**2
         suma+=pole_kola
-    else:
+    elif len(dane_figury)>3:
         print("Błąd: można podać maksymalnie 3 liczby")
 print(round(suma,2))
